@@ -1,0 +1,19 @@
+# Dataset files (not ours to redistribute)
+data/*.csv
+data/*.zip
+data/*.xlsx
+
+# Python and Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+*.env
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
