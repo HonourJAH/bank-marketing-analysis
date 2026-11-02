@@ -115,3 +115,41 @@ The call's length is only known once the call ends, at which point y is known to
 
 **Limit**
 The documentation does not explain the 4,110 rows where pdays = 999 conflicts with an earlier contact. The data cannot explain them either.
+
+## 8. Columns are renamed to readable names in the clean data
+
+**Found**
+- Several original names contain dots (emp.var.rate, cons.price.idx, cons.conf.idx, nr.employed), which are awkward to use in pandas, and some are unclear on their own (default, campaign, y).
+
+**Decision**
+Rename all columns in the clean data. The raw data keeps the original UCI names. One column is added: previously_contacted (see decision 2).
+
+| UCI name | Clean name |
+|---|---|
+| age | age |
+| job | job |
+| marital | marital_status |
+| education | education |
+| default | credit_default |
+| housing | housing_loan |
+| loan | personal_loan |
+| contact | contact_type |
+| month | contact_month |
+| day_of_week | contact_weekday |
+| duration | call_duration_seconds |
+| campaign | contacts_this_campaign |
+| pdays | days_since_previous_contact |
+| previous | contacts_before_campaign |
+| poutcome | previous_campaign_outcome |
+| emp.var.rate | employment_variation_rate |
+| cons.price.idx | consumer_price_index |
+| cons.conf.idx | consumer_confidence_index |
+| euribor3m | euribor_3_month_rate |
+| nr.employed | number_employed |
+| y | subscribed_term_deposit |
+
+**Why**
+Clear names let the findings and code be read without a code book, and the mapping keeps every column traceable to the dataset documentation.
+
+**Check**
+Renaming back to the original names gives a table identical to the one before renaming, so only labels changed.
