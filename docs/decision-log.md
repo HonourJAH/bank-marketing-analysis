@@ -153,3 +153,17 @@ Clear names let the findings and code be read without a code book, and the mappi
 
 **Check**
 Renaming back to the original names gives a table identical to the one before renaming, so only labels changed.
+
+## 9. Clean data validated against the raw data
+
+**Found**
+- Saved file `data/bank_marketing_clean.parquet`: 41,176 rows, 22 columns, 0 duplicate rows.
+- Only days_since_previous_contact has missing values (39,661, the 39,673 raw placeholders minus the 12 removed duplicates).
+- "unknown" counts and every category count in all 11 text columns differ from the raw data only by what the 12 removed rows held. y: 36,537 no, 4,639 yes (yes rate 11.266%).
+- previous_campaign_outcome = nonexistent and contacts_before_campaign = 0 mark exactly the same 35,551 rows; the other 5,625 customers were contacted before.
+
+**Decision**
+The clean data is used as it is for all business questions. The assumption in decision 2 that nonexistent and previous = 0 are the same rows is confirmed.
+
+**Limit**
+The data does not explain why the days since the previous contact are missing for the 4,110 customers who were contacted before.
