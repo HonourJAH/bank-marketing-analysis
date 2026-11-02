@@ -21,7 +21,7 @@ A Portuguese bank phoned customers between May 2008 and November 2010 to sell a 
 - Across the whole campaign, the bank made about 23 calls for every customer who said yes.
 
 **What this means**
-Calling effort was spread fairly evenly, and a typical customer was called about twice. The higher average for customers who said no suggests that a small group was called many times and mostly said no. Question 6 looks at this.
+- Calling effort was spread fairly evenly, and a typical customer was called about twice. The higher average for customers who said no suggests that a small group was called many times and mostly said no. Question 6 looks at this.
 
 **What we cannot say**
 - The 23 calls per "yes" is not the cost of winning one customer. It includes every call made to customers who never said yes, and the data has no call costs or deposit amounts.
@@ -51,7 +51,7 @@ Calling effort was spread fairly evenly, and a typical customer was called about
 - Customers under 25 and over 65 together are only 4% of everyone called, but they produced 12% of all the "yes" answers. Customers aged 35 to 54 are 54% of everyone called, but produced only 41% of the "yes" answers.
 
 **What this means**
-The bank's best responders, customers aged 60 and over and customers in their early twenties, are a small part of the call list. Most calls went to customers aged 35 to 54, who responded below average. Whether shifting calls toward the better-responding ages would pay off is a question this data cannot answer by itself.
+- The bank's best responders, customers aged 60 and over and customers in their early twenties, are a small part of the call list. Most calls went to customers aged 35 to 54, who responded below average. Whether shifting calls toward the better-responding ages would pay off is a question this data cannot answer by itself.
 
 **What we cannot say**
 - We cannot say why older and younger customers respond more. Retirement is one possible reason for the jump at 60, but this is a guess until we compare age with job in the next question.
