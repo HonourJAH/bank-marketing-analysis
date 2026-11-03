@@ -260,3 +260,106 @@ Student status, an admin. job and a university degree are associated with a high
 - The expected rate for retired customers rests on only 103 customers aged 65 and over in other jobs (Table 3.3), so it is the least solid comparison.
 - Jobs and education levels are as recorded by the bank, and the data cannot show how accurate or current they are. Customers with an unknown job or education are kept as their own group.
 - Each record is a contact, not necessarily a different person.
+
+---
+
+## Question 4. Is a customer's financial profile linked to saying yes?
+
+**Findings**
+
+*Table 4.1. Yes rate by housing loan, personal loan and credit default status*
+
+| Column | Group | Customers | Subscribed | Yes rate | Share of customers | Share of all subscriptions |
+|---|---|---|---|---|---|---|
+| Housing loan | Has a housing loan | 21,571 | 2,507 | 11.6% | 52.4% | 54.0% |
+| Housing loan | No housing loan | 18,615 | 2,025 | 10.9% | 45.2% | 43.7% |
+| Housing loan | Unknown | 990 | 107 | 10.8% | 2.4% | 2.3% |
+| Housing loan | **Total** | **41,176** | **4,639** | **11.3%** | **100%** | **100%** |
+| Personal loan | Has a personal loan | 6,248 | 683 | 10.9% | 15.2% | 14.7% |
+| Personal loan | No personal loan | 33,938 | 3,849 | 11.3% | 82.4% | 83.0% |
+| Personal loan | Unknown | 990 | 107 | 10.8% | 2.4% | 2.3% |
+| Personal loan | **Total** | **41,176** | **4,639** | **11.3%** | **100%** | **100%** |
+| Credit default | Has credit in default (too few to rely on) | 3 | 0 | 0.0% | less than 0.1% | 0.0% |
+| Credit default | No credit in default | 32,577 | 4,196 | 12.9% | 79.1% | 90.5% |
+| Credit default | Unknown | 8,596 | 443 | 5.2% | 20.9% | 9.5% |
+| Credit default | **Total** | **41,176** | **4,639** | **11.3%** | **100%** | **100%** |
+
+*Table 4.2. Actual yes rate compared with the rate expected for the group's ages*
+
+As in Question 3, the expected yes rate is the rate a group would have if it behaved like all other customers of the same ages. Each group is compared with the customers in the other groups of the same column, so the two main groups of a column mirror each other.
+
+| Column | Group | Customers | Actual yes rate | Expected yes rate for its ages | Result |
+|---|---|---|---|---|---|
+| Housing loan | Has a housing loan | 21,571 | 11.6% | 11.0% | Slightly higher |
+| Housing loan | No housing loan | 18,615 | 10.9% | 11.4% | Slightly lower |
+| Housing loan | Unknown | 990 | 10.8% | 11.4% | In line |
+| Personal loan | Has a personal loan | 6,248 | 10.9% | 11.3% | In line |
+| Personal loan | No personal loan | 33,938 | 11.3% | 11.0% | Borderline (slightly higher) |
+| Personal loan | Unknown | 990 | 10.8% | 11.4% | In line |
+| Credit default | Has credit in default | 3 | n/a | n/a | Too few customers to interpret |
+| Credit default | No credit in default | 32,577 | 12.9% | 6.2% | Higher |
+| Credit default | Unknown | 8,596 | 5.2% | 11.9% | Lower |
+
+*Table 4.3. Customers with an unknown and a recorded credit default status, by contact type*
+
+| Contact type | Unknown customers | Recorded customers | Share of unknown group | Share of recorded group | Unknown yes rate | Recorded yes rate |
+|---|---|---|---|---|---|---|
+| Cellular | 4,363 | 21,772 | 50.8% | 66.8% | 6.7% | 16.4% |
+| Telephone | 4,233 | 10,808 | 49.2% | 33.2% | 3.6% | 5.9% |
+| **Total** | **8,596** | **32,580** | **100%** | **100%** | **5.2%** | **12.9%** |
+
+*Table 4.4. Customers with an unknown and a recorded credit default status, by month of contact (n/a where there are fewer than 100 customers)*
+
+| Month | Unknown customers | Recorded customers | Share of unknown group | Share of recorded group | Unknown yes rate | Recorded yes rate |
+|---|---|---|---|---|---|---|
+| March | 16 | 530 | 0.2% | 1.6% | n/a | 50.8% |
+| April | 349 | 2,282 | 4.1% | 7.0% | 6.0% | 22.7% |
+| May | 3,405 | 10,362 | 39.6% | 31.8% | 4.1% | 7.2% |
+| June | 1,392 | 3,926 | 16.2% | 12.1% | 4.7% | 12.6% |
+| July | 1,737 | 5,432 | 20.2% | 16.7% | 5.6% | 10.1% |
+| August | 1,236 | 4,940 | 14.4% | 15.2% | 5.4% | 11.9% |
+| September | 12 | 558 | 0.1% | 1.7% | n/a | 44.4% |
+| October | 18 | 699 | 0.2% | 2.1% | n/a | 43.5% |
+| November | 425 | 3,675 | 4.9% | 11.3% | 5.2% | 10.7% |
+| December | 6 | 176 | 0.1% | 0.5% | n/a | 48.3% |
+| **Total** | **8,596** | **32,580** | **100%** | **100%** | **5.2%** | **12.9%** |
+
+*Table 4.5. Customers with an unknown credit default status: actual compared with expected if they behaved like recorded customers contacted in the same way*
+
+| Allowing for | Actual subscriptions | Expected subscriptions | Actual yes rate | Expected yes rate |
+|---|---|---|---|---|
+| Contact type | 443 | 962 | 5.2% | 11.2% |
+| Month of contact | 443 | 892 | 5.2% | 10.4% |
+| Contact type and month together | 443 | 738 | 5.2% | 8.6% |
+
+*Housing and personal loans*
+
+- Having a loan makes little difference to the yes rate. Customers with a housing loan subscribed at 11.6% and those without at 10.9%. Customers with a personal loan subscribed at 10.9% and those without at 11.3%, against 11.3% overall (Table 4.1).
+- The 990 customers whose loan status is unknown are the same customers in both columns. Their yes rate is 10.8%, close to the overall rate.
+- Allowing for age does not change this. Every loan group is within 0.7 points of its expected rate, and the differences are too small to matter for deciding whom to call (Table 4.2).
+
+*Credit default*
+
+- Only 3 customers are recorded as having credit in default, too few to interpret (Table 4.1).
+- Customers whose credit default status is unknown subscribed at 5.2%, less than half the overall 11.3%. Customers with a recorded "no" subscribed at 12.9%. Unknown customers are 20.9% of the call list but 9.5% of subscriptions (Table 4.1).
+- The weak response is not explained by age. The unknown group's actual yes rate of 5.2% is far below the 11.9% expected for its ages (Table 4.2).
+
+*Contact method and month*
+
+- Customers with an unknown credit default status were contacted differently. 49.2% were reached by telephone, against 33.2% of customers with a recorded status. Telephone has the lower yes rate in both groups (Table 4.3).
+- Unknown customers were concentrated in May (39.6% of the group against 31.8% of recorded customers), the month with the lowest yes rate among recorded customers (7.2%). They were almost absent from March, September, October and December (6 to 18 customers a month), the months in which recorded customers responded best, at 43.5% to 50.8% (Table 4.4).
+- Unknown customers respond less within every group tested. By cellular they subscribed at 6.7% against 16.4%, and by telephone at 3.6% against 5.9% (Table 4.3). In every month with at least 100 unknown customers, their yes rate is below that of recorded customers (Table 4.4).
+- Contact type and month together explain a little over half of the difference. Recorded customers subscribed at 12.9% against 5.2% for unknown customers, a gap of 7.7 points. Allowing for both contact type and month, the expected rate for unknown customers is 8.6%, leaving a gap of 3.4 points (Tables 4.3 and 4.5).
+
+**What this means**
+
+Whether a customer has a housing or personal loan tells the bank very little about who will subscribe. The useful signal is a missing credit default record. These customers are one in five on the call list and respond at about half the rate of other customers. Part of the gap comes from how and when they were called, mostly by telephone and in May, and part is unexplained. They are a candidate for lower priority, but the data cannot show whether the missing record itself matters or whether it goes together with something else that does.
+
+**Limitations**
+
+- The data shows associations, not reasons. "Unknown" means only that the bank has no record, and the data does not say why.
+- Age, contact type and month were each tested separately, not all together. The combined comparison of contact type and month relies on small groups, so it is the least solid figure here.
+- Housing loan and personal loan were not tested together, because each is within one point of the overall yes rate.
+- Whether a customer has a loan is as recorded at the time of the call. The data does not show when it was taken or how large it is.
+- Fewer than 100 unknown customers were contacted in March, September, October and December, so no yes rate is shown for them.
+- Each record is a contact, not necessarily a different person.
