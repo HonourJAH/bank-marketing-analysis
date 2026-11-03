@@ -363,3 +363,95 @@ Whether a customer has a housing or personal loan tells the bank very little abo
 - Whether a customer has a loan is as recorded at the time of the call. The data does not show when it was taken or how large it is.
 - Fewer than 100 unknown customers were contacted in March, September, October and December, so no yes rate is shown for them.
 - Each record is a contact, not necessarily a different person.
+
+---
+
+## Question 5. Do contact method, month and weekday change the yes rate?
+
+**Findings**
+
+*Table 5.1. Yes rate by contact type*
+
+| Contact type | Customers | Subscribed | Yes rate | Share of customers | Share of all subscriptions |
+|---|---|---|---|---|---|
+| Cellular | 26,135 | 3,852 | 14.7% | 63.5% | 83.0% |
+| Telephone | 15,041 | 787 | 5.2% | 36.5% | 17.0% |
+| **Total** | **41,176** | **4,639** | **11.3%** | **100%** | **100%** |
+
+*Table 5.2. Yes rate by month of contact*
+
+| Month | Customers | Subscribed | Yes rate | Share of customers | Share of all subscriptions |
+|---|---|---|---|---|---|
+| March | 546 | 276 | 50.5% | 1.3% | 5.9% |
+| April | 2,631 | 539 | 20.5% | 6.4% | 11.6% |
+| May | 13,767 | 886 | 6.4% | 33.4% | 19.1% |
+| June | 5,318 | 559 | 10.5% | 12.9% | 12.1% |
+| July | 7,169 | 648 | 9.0% | 17.4% | 14.0% |
+| August | 6,176 | 655 | 10.6% | 15.0% | 14.1% |
+| September | 570 | 256 | 44.9% | 1.4% | 5.5% |
+| October | 717 | 315 | 43.9% | 1.7% | 6.8% |
+| November | 4,100 | 416 | 10.1% | 10.0% | 9.0% |
+| December | 182 | 89 | 48.9% | 0.4% | 1.9% |
+| **Total** | **41,176** | **4,639** | **11.3%** | **100%** | **100%** |
+| March, September, October and December combined | 2,015 | 936 | 46.5% | 4.9% | 20.2% |
+
+*Table 5.3. Yes rate by weekday of contact*
+
+| Weekday | Customers | Subscribed | Yes rate | Share of customers | Share of all subscriptions |
+|---|---|---|---|---|---|
+| Monday | 8,512 | 847 | 10.0% | 20.7% | 18.3% |
+| Tuesday | 8,086 | 953 | 11.8% | 19.6% | 20.5% |
+| Wednesday | 8,134 | 949 | 11.7% | 19.8% | 20.5% |
+| Thursday | 8,618 | 1,044 | 12.1% | 20.9% | 22.5% |
+| Friday | 7,826 | 846 | 10.8% | 19.0% | 18.2% |
+| **Total** | **41,176** | **4,639** | **11.3%** | **100%** | **100%** |
+
+*Table 5.4. Contact type within each month (n/a where there are fewer than 100 customers)*
+
+| Month | Cellular customers | Telephone customers | Telephone share of the month | Cellular yes rate | Telephone yes rate | Yes rate, all customers |
+|---|---|---|---|---|---|---|
+| March | 486 | 60 | 11.0% | 51.9% | n/a | 50.5% |
+| April | 2,444 | 187 | 7.1% | 20.2% | 24.6% | 20.5% |
+| May | 5,517 | 8,250 | 59.9% | 11.1% | 3.3% | 6.4% |
+| June | 820 | 4,498 | 84.6% | 42.6% | 4.7% | 10.5% |
+| July | 6,092 | 1,077 | 15.0% | 9.7% | 5.4% | 9.0% |
+| August | 5,907 | 269 | 4.4% | 10.5% | 13.4% | 10.6% |
+| September | 482 | 88 | 15.4% | 49.4% | n/a | 44.9% |
+| October | 563 | 154 | 21.5% | 44.9% | 40.3% | 43.9% |
+| November | 3,675 | 425 | 10.4% | 10.0% | 11.8% | 10.1% |
+| December | 149 | 33 | 18.1% | 52.4% | n/a | 48.9% |
+| **Total** | **26,135** | **15,041** | **36.5%** | **14.7%** | **5.2%** | **11.3%** |
+
+*Contact type*
+
+- Customers contacted on a cellular phone subscribed at 14.7% and those contacted by telephone at 5.2%, against 11.3% overall. Telephone is 36.5% of the call list but 17.0% of subscriptions (Table 5.1).
+- The difference between the two is concentrated in May, June and July. Those three months account for 13,825 of the 15,041 telephone customers (8,250 + 4,498 + 1,077, Table 5.4), and telephone customers there subscribed at 3.3%, 4.7% and 5.4%, against 11.1%, 42.6% and 9.7% for cellular.
+- In April, August, October and November the two channels are close, and the gaps run in both directions: telephone is higher in April (24.6% against 20.2%), August (13.4% against 10.5%) and November (11.8% against 10.0%), and lower in October (40.3% against 44.9%). The telephone groups in those months are small, between 154 and 425 customers (Table 5.4).
+
+*Month*
+
+- Four months have far higher yes rates than the rest: March (50.5%), September (44.9%), October (43.9%) and December (48.9%). Together they are 4.9% of the call list but account for 20.2% of all subscriptions, with a combined yes rate of 46.5% (Table 5.2).
+- April is also well above average at 20.5% (539 of 2,631).
+- May has the lowest yes rate, 6.4% (886 of 13,767). It is a third of the call list (33.4%) but 19.1% of subscriptions (Table 5.2).
+- June, July, August and November are close to each other and slightly below average, between 9.0% and 10.6%.
+- The strong response in March, September, October and December is not explained by contact type. Cellular customers there subscribed at 51.9%, 49.4%, 52.4% and 44.9% in March, September, December and October respectively, roughly four to five times their rates in May, July, August and November (9.7% to 11.1%). In October telephone customers also subscribed at a high rate (40.3%, Table 5.4).
+- June is unusual among the summer months: cellular customers subscribed at 42.6% (820 customers), against 9.7% to 11.1% for cellular in May, July and August (Table 5.4).
+
+*Weekday*
+
+- The weekday makes only a small difference. Yes rates run from 10.0% on Monday to 12.1% on Thursday (Table 5.3). Monday is the lowest day, and the other four days are within about one point of the overall 11.3%.
+
+**What this means**
+
+How and when a customer was contacted matters far more than the day of the week. The weak result for telephone is mainly a May-to-July result, which is also when most telephone calls were made. In those months cellular customers responded better, while in the other months the two channels perform alike. The four months with exceptionally high yes rates are a small part of the call list, and what they have in common is not visible in this data. Whether moving calls between channels or months would raise subscriptions cannot be determined from this data alone.
+
+**Limitations**
+
+- The data shows associations, not reasons. It cannot show whether telephone calls were less effective, or whether telephone customers in May to July were a different group or were reached in a different phase of the campaign.
+- The data has no year column and covers May 2008 to November 2010, so each month combines several years. It also contains no January or February, so the month results cover ten months only.
+- March, September, October and December are small months (546, 570, 717 and 182 customers). The data does not explain why they responded so well; it may reflect how customers were selected or how the campaign was run in those months.
+- The month results may partly reflect the economic climate at the time, which Question 9 examines.
+- No telephone yes rate is shown for March, September and December, because each has fewer than 100 telephone customers.
+- Contact type, month and weekday describe the last contact of the current campaign, as documented by the dataset's authors.
+- Weekday was not compared with contact type or month.
+- Each record is a contact, not necessarily a different person.
