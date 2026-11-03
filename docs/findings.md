@@ -455,3 +455,90 @@ How and when a customer was contacted matters far more than the day of the week.
 - Contact type, month and weekday describe the last contact of the current campaign, as documented by the dataset's authors.
 - Weekday was not compared with contact type or month.
 - Each record is a contact, not necessarily a different person.
+
+---
+
+## Question 6. Where does extra calling stop paying off?
+
+**Findings**
+
+*Table 6.1. Yes rate by the total number of calls a customer received*
+
+| Calls received | Customers | Subscribed | Calls made | Yes rate | Share of customers | Share of all subscriptions | Share of all calls |
+|---|---|---|---|---|---|---|---|
+| 1 | 17,634 | 2,299 | 17,634 | 13.0% | 42.8% | 49.6% | 16.7% |
+| 2 | 10,568 | 1,211 | 21,136 | 11.5% | 25.7% | 26.1% | 20.0% |
+| 3 | 5,340 | 574 | 16,020 | 10.7% | 13.0% | 12.4% | 15.2% |
+| 4 | 2,650 | 249 | 10,600 | 9.4% | 6.4% | 5.4% | 10.0% |
+| 5 | 1,599 | 120 | 7,995 | 7.5% | 3.9% | 2.6% | 7.6% |
+| 6 to 10 | 2,516 | 159 | 18,274 | 6.3% | 6.1% | 3.4% | 17.3% |
+| 11 to 20 | 712 | 26 | 9,864 | 3.7% | 1.7% | 0.6% | 9.3% |
+| 21 to 30 | 124 | 1 | 3,035 | 0.8% | 0.3% | less than 0.1% | 2.9% |
+| 31 and over (small group) | 33 | 0 | 1,177 | 0.0% | less than 0.1% | 0.0% | 1.1% |
+| **Total** | **41,176** | **4,639** | **105,735** | **11.3%** | **100%** | **100%** | **100%** |
+| 6 or more calls, combined | 3,385 | 186 | 32,350 | 5.5% | 8.2% | 4.0% | 30.6% |
+
+*Table 6.2. Subscriptions per 100 calls, by call number*
+
+Call number 3 means every third call made to a customer who received at least three calls. A subscription is counted at the call number on which the customer's contact ended, on the assumption that a customer who subscribes is not called again.
+
+| Call number | Calls made | Subscriptions | Subscriptions per 100 calls | Cumulative share of subscriptions | Cumulative share of calls |
+|---|---|---|---|---|---|
+| 1 | 41,176 | 2,299 | 5.6 | 49.6% | 38.9% |
+| 2 | 23,542 | 1,211 | 5.1 | 75.7% | 61.2% |
+| 3 | 12,974 | 574 | 4.4 | 88.0% | 73.5% |
+| 4 | 7,634 | 249 | 3.3 | 93.4% | 80.7% |
+| 5 | 4,984 | 120 | 2.4 | 96.0% | 85.4% |
+| 6 | 3,385 | 75 | 2.2 | 97.6% | 88.6% |
+| 7 | 2,406 | 38 | 1.6 | 98.4% | 90.9% |
+| 8 | 1,777 | 17 | 1.0 | 98.8% | 92.6% |
+| 9 | 1,377 | 17 | 1.2 | 99.2% | 93.9% |
+| 10 | 1,094 | 12 | 1.1 | 99.4% | 94.9% |
+| 11 to 15 | 3,009 | 22 | 0.7 | 99.9% | 97.8% |
+| 16 to 20 | 1,305 | 4 | 0.3 | 100.0% | 99.0% |
+| 21 to 30 | 885 | 1 | 0.1 | 100.0% | 99.8% |
+| 31 and over | 187 | 0 | 0.0 | 100.0% | 100.0% |
+| **Total** | **105,735** | **4,639** | **4.4** | | |
+
+*Table 6.3. What a limit on calls per customer would have meant in this campaign*
+
+Calculated from Table 6.2: the calls beyond the limit, and the subscriptions that came from them.
+
+| Limit on calls per customer | Calls saved | Share of all calls | Subscriptions given up | Share of all subscriptions | Calls saved per subscription given up |
+|---|---|---|---|---|---|
+| 3 calls | 28,043 | 26.5% | 555 | 12.0% | 50.5 |
+| 5 calls | 15,425 | 14.6% | 186 | 4.0% | 82.9 |
+| 10 calls | 5,386 | 5.1% | 27 | 0.6% | 199.5 |
+| For comparison: the whole campaign | | | | | 22.8 calls per subscription (Table 1.2) |
+
+*Yes rate by calls received*
+
+- The more calls a customer received, the lower the yes rate. It is 13.0% for customers who received one call, 11.5% for two, 10.7% for three and 9.4% for four. It falls to 6.3% for 6 to 10 calls, 3.7% for 11 to 20 calls and 0.8% for 21 to 30 calls (Table 6.1).
+- None of the 33 customers who received 31 or more calls subscribed. This group is too small to interpret on its own.
+- Customers who received six or more calls are 8.2% of the call list but received 30.6% of all calls and produced 4.0% of subscriptions, a combined yes rate of 5.5% (Table 6.1).
+
+*The chance of a yes on each call*
+
+- Early calls were far more productive than later ones. Per 100 calls, subscriptions were 5.6 at call 1, 5.1 at call 2, 4.4 at call 3, 3.3 at call 4 and 2.4 at call 5. They fall to between 1.0 and 2.2 for calls 6 to 10, 0.7 for calls 11 to 15, 0.3 for calls 16 to 20 and 0.1 for calls 21 to 30. No call numbered 31 or higher led to a subscription (Table 6.2).
+- From the fourth call, each call produced fewer subscriptions than the campaign average of 4.4 per 100 calls (Table 6.2).
+- Most subscriptions came from the first few calls. The first three calls produced 88.0% of subscriptions from 73.5% of all calls, and the first five produced 96.0% from 85.4% of calls. Calls beyond the fifth were 14.6% of the effort and 4.0% of the result (Tables 6.2 and 6.3).
+- Differences between neighbouring call numbers from 6 to 10 are small, based on 12 to 75 subscriptions each, and should not be read as a pattern.
+
+*What a limit on calls would have meant*
+
+- A limit of 3 calls per customer would have saved 28,043 calls (26.5%) at the cost of 555 subscriptions (12.0%). A limit of 5 would have saved 15,425 calls (14.6%) and given up 186 subscriptions (4.0%). A limit of 10 would have saved 5,386 calls (5.1%) and given up 27 subscriptions (0.6%) (Table 6.3).
+- Even the strictest limit shown saves 50.5 calls for each subscription given up, against 22.8 calls per subscription for the campaign as a whole (Table 6.3).
+
+**What this means**
+
+Calling effort was spread very unevenly relative to results. Almost nine in ten subscriptions came within the first three calls, and calls beyond the fifth took 14.6% of the effort for 4.0% of the subscriptions. A limit of three to five calls per customer would have saved a meaningful share of calls at a modest cost in subscriptions. Where the right limit lies depends on what a call costs and what a deposit is worth, and the data contains neither.
+
+**Limitations**
+
+- The data shows how results varied with the number of calls, not whether the extra calls caused the lower yes rate. Customers who subscribe are presumably not called again, so customers who received many calls are, by construction, those who kept declining. They are not a random sample of everyone who was called at call 1.
+- Table 6.2 assumes that a subscription happens on a customer's last call. The dataset documentation ties the outcome to the end of the last contact, which supports this, but the data does not check it directly.
+- The limits in Table 6.3 describe what happened in this campaign, not what would have happened under a limit. The data does not show whether customers would have subscribed with fewer calls, or whether more customers were available to be called with the calls saved.
+- The data contains no call costs and no deposit values, so it cannot show where calling stops being worthwhile.
+- Only calls made in this campaign are counted.
+- Only 33 customers received 31 or more calls, so no conclusion is drawn about them separately.
+- Each record is a contact, not necessarily a different person.
