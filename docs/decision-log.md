@@ -167,3 +167,21 @@ The clean data is used as it is for all business questions. The assumption in de
 
 **Limit**
 The data does not explain why the days since the previous contact are missing for the 4,110 customers who were contacted before.
+
+## 10. The campaign year is inferred from the row order and added as a column
+
+**Found**
+- The dataset documentation says the file is ordered by date, from May 2008 to November 2010, but the data has no year column.
+- The month name falls back from december to march at exactly two places (row positions 27,682 and 39,118 of the clean data), and nowhere else. That gives three blocks: 2008 (may to december, with no march, april or september), 2009 (march to december) and 2010 (march to november).
+- Customers and subscribers by inferred year: 2008 27,682 and 1,339 (yes rate 4.8%), 2009 11,436 and 2,227 (19.5%), 2010 2,058 and 1,073 (52.1%).
+- A second, independent method gives the same year for every row: the 11 distinct values of number_employed form 11 unbroken blocks in date order, and the same two boundaries separate the years.
+- The yes rate differs about tenfold between years. Several findings that looked general in questions 2 to 7 weaken or disappear when repeated within one year.
+
+**Decision**
+Add the column inferred_campaign_year (2008, 2009 or 2010) to the clean data, defined in notebook 03 so that every notebook uses the same one. The saved clean file now has 23 columns. Report results within each inferred year wherever the year could change the conclusion.
+
+**Why**
+The year is the largest source of difference in the data, and ignoring it made some findings look stronger, or the opposite, than they are.
+
+**Limit**
+The year is inferred, not recorded. It relies on the file being in strict date order, which the documentation states and the month sequence supports. The data cannot show why the years differ: the economy, whom the bank called and how the campaign was run all changed together. No customer has a recorded date, so the column says nothing about the month or day beyond what the data already holds. The 2010 block has only 2,058 customers, so many groups within it are too small to report.
