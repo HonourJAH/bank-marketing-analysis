@@ -542,3 +542,153 @@ Calling effort was spread very unevenly relative to results. Almost nine in ten 
 - Only calls made in this campaign are counted.
 - Only 33 customers received 31 or more calls, so no conclusion is drawn about them separately.
 - Each record is a contact, not necessarily a different person.
+
+---
+
+## Question 7. Do customers who were contacted in an earlier campaign respond differently?
+
+**Findings**
+
+*Table 7.1. Yes rate by the outcome of the previous campaign*
+
+| Previous campaign outcome | Customers | Subscribed | Yes rate | Share of customers | Share of all subscriptions |
+|---|---|---|---|---|---|
+| Never contacted before | 35,551 | 3,140 | 8.8% | 86.3% | 67.7% |
+| Earlier contact ended in failure | 4,252 | 605 | 14.2% | 10.3% | 13.0% |
+| Earlier contact ended in success | 1,373 | 894 | 65.1% | 3.3% | 19.3% |
+| **Total** | **41,176** | **4,639** | **11.3%** | **100%** | **100%** |
+| Contacted before, combined | 5,625 | 1,499 | 26.6% | 13.7% | 32.3% |
+
+*Table 7.2. Yes rate by number of earlier contacts*
+
+| Earlier contacts | Customers | Subscribed | Yes rate | Share of customers | Share of all subscriptions | Share with an earlier success |
+|---|---|---|---|---|---|---|
+| None | 35,551 | 3,140 | 8.8% | 86.3% | 67.7% | n/a |
+| 1 | 4,561 | 967 | 21.2% | 11.1% | 20.8% | 19.0% |
+| 2 | 754 | 350 | 46.4% | 1.8% | 7.5% | 42.4% |
+| 3 or more | 310 | 182 | 58.7% | 0.8% | 3.9% | 60.6% |
+| **Total** | **41,176** | **4,639** | **11.3%** | **100%** | **100%** | **3.3%** |
+
+*Table 7.3. Customers contacted before: yes rate by number of earlier contacts and previous outcome*
+
+| Previous outcome | Earlier contacts | Customers | Subscribed | Yes rate |
+|---|---|---|---|---|
+| Failure | 1 | 3,696 | 451 | 12.2% |
+| Failure | 2 | 434 | 112 | 25.8% |
+| Failure | 3 or more | 122 | 42 | 34.4% |
+| Failure | **All** | **4,252** | **605** | **14.2%** |
+| Success | 1 | 865 | 516 | 59.7% |
+| Success | 2 | 320 | 238 | 74.4% |
+| Success | 3 or more | 188 | 140 | 74.5% |
+| Success | **All** | **1,373** | **894** | **65.1%** |
+
+*Table 7.4. Customers by month and previous campaign outcome*
+
+| Month | Never contacted | Earlier failure | Earlier success | Total | Share contacted before | Share with an earlier success |
+|---|---|---|---|---|---|---|
+| March | 367 | 98 | 81 | 546 | 32.8% | 14.8% |
+| April | 1,873 | 647 | 111 | 2,631 | 28.8% | 4.2% |
+| May | 11,758 | 1,779 | 230 | 13,767 | 14.6% | 1.7% |
+| June | 5,003 | 171 | 144 | 5,318 | 5.9% | 2.7% |
+| July | 6,941 | 120 | 108 | 7,169 | 3.2% | 1.5% |
+| August | 5,717 | 254 | 205 | 6,176 | 7.4% | 3.3% |
+| September | 285 | 137 | 148 | 570 | 50.0% | 26.0% |
+| October | 413 | 168 | 136 | 717 | 42.4% | 19.0% |
+| November | 3,096 | 839 | 165 | 4,100 | 24.5% | 4.0% |
+| December | 98 | 39 | 45 | 182 | 46.2% | 24.7% |
+| **Total** | **35,551** | **4,252** | **1,373** | **41,176** | **13.7%** | **3.3%** |
+| March, September, October and December combined | 1,163 | 442 | 410 | 2,015 | 42.3% | 20.3% |
+| The other six months combined | 34,388 | 3,810 | 963 | 39,161 | 12.2% | 2.5% |
+
+*Table 7.5. Yes rate by month and previous campaign outcome (n/a where there are fewer than 100 customers)*
+
+| Month | Never contacted | Earlier failure | Earlier success | All customers | Share of the month's subscriptions from earlier successes |
+|---|---|---|---|---|---|
+| March | 47.4% | n/a | n/a | 50.5% | 23.2% |
+| April | 21.2% | 11.3% | 62.2% | 20.5% | 12.8% |
+| May | 5.5% | 7.3% | 49.1% | 6.4% | 12.8% |
+| June | 8.2% | 31.6% | 66.0% | 10.5% | 17.0% |
+| July | 7.4% | 40.8% | 75.9% | 9.0% | 12.7% |
+| August | 7.7% | 31.1% | 65.9% | 10.6% | 20.6% |
+| September | 35.4% | 29.2% | 77.7% | 44.9% | 44.9% |
+| October | 39.2% | 33.9% | 70.6% | 43.9% | 30.5% |
+| November | 8.0% | 8.6% | 57.6% | 10.1% | 22.8% |
+| December | n/a | n/a | n/a | 48.9% | 33.7% |
+| **Total** | **8.8%** | **14.2%** | **65.1%** | **11.3%** | **19.3%** |
+
+*Table 7.6. Yes rate by days since the previous contact (customers with a recorded gap only; n/a where there are fewer than 100 customers)*
+
+| Days since previous contact | Customers | Subscribed | Yes rate | Share of customers with a recorded gap |
+|---|---|---|---|---|
+| 0 to 2 | 102 | 55 | 53.9% | 6.7% |
+| 3 to 4 | 557 | 361 | 64.8% | 36.8% |
+| 5 to 6 | 458 | 318 | 69.4% | 30.2% |
+| 7 | 60 | 40 | n/a | 4.0% |
+| 8 to 14 | 276 | 157 | 56.9% | 18.2% |
+| 15 and over | 62 | 36 | n/a | 4.1% |
+| **Total** | **1,515** | **967** | **63.8%** | **100%** |
+
+*Table 7.7. Days since the previous contact, by previous outcome (n/a where there are fewer than 100 customers)*
+
+| Days since previous contact | Earlier success customers | Earlier success yes rate | Earlier failure customers | Earlier failure yes rate |
+|---|---|---|---|---|
+| 0 to 2 | 102 | 53.9% | 0 | n/a |
+| 3 to 4 | 551 | 65.2% | 6 | n/a |
+| 5 to 6 | 429 | 70.4% | 29 | n/a |
+| 7 | 45 | n/a | 15 | n/a |
+| 8 to 14 | 210 | 58.1% | 66 | n/a |
+| 15 and over | 36 | n/a | 26 | n/a |
+| **Total** | **1,373** | **65.1%** | **142** | **51.4%** |
+
+*Table 7.8. Customers whose earlier contact ended in failure, by whether the days since the previous contact is recorded*
+
+Calculated from earlier tables: the 73 subscriptions among failures with a recorded gap are the 967 subscriptions with any recorded gap (Table 7.6) minus the 894 earlier successes who subscribed (Table 7.1).
+
+| Days since previous contact | Customers | Subscribed | Yes rate |
+|---|---|---|---|
+| Recorded | 142 | 73 | 51.4% |
+| Not recorded | 4,110 | 532 | 12.9% |
+| **Total** | **4,252** | **605** | **14.2%** |
+
+*Previous campaign outcome*
+
+- Customers whose earlier contact ended in success subscribed at 65.1% (894 of 1,373), about 5.8 times the overall rate of 11.3%. They are 3.3% of the call list but account for 19.3% of all subscriptions (Table 7.1).
+- Customers whose earlier contact ended in failure subscribed at 14.2% (605 of 4,252), higher than the 8.8% of customers never contacted before (Table 7.1).
+- Customers never contacted before are 86.3% of the call list and responded below the overall rate, at 8.8%. The overall yes rate of 11.3% is lifted by the 5,625 customers contacted before, who are 13.7% of the list, account for 32.3% of subscriptions and have a combined yes rate of 26.6% (Table 7.1).
+
+*Number of earlier contacts*
+
+- The yes rate rises with the number of earlier contacts: 21.2% for one, 46.4% for two and 58.7% for three or more (Table 7.2).
+- Part of this rise is the previous outcome. The share of customers with an earlier success rises from 19.0% for one earlier contact to 42.4% for two and 60.6% for three or more (Table 7.2).
+- The count carries some information of its own. Among customers whose earlier contact ended in failure, the yes rate rises from 12.2% for one earlier contact to 25.8% for two and 34.4% for three or more. Among earlier successes it rises from 59.7% to 74.4% for two contacts, then stays at 74.5% for three or more (Table 7.3).
+
+*Month*
+
+- Customers with an earlier contact were concentrated in the four months with exceptionally high yes rates (Question 5). In March, September, October and December, 42.3% of customers had been contacted before (852 of 2,015) against 12.2% in the other six months, and 20.3% had an earlier success against 2.5%. These four months are 4.9% of the call list but contain 29.9% of all customers with an earlier success (410 of 1,373, Table 7.4).
+- This explains only part of the strong months. Among customers never contacted before, the yes rate was 47.4% in March, 35.4% in September and 39.2% in October, against between 5.5% and 8.2% in May, June, July, August and November (Table 7.5). April is also high for customers never contacted before (21.2%). December has fewer than 100 such customers, so no rate is shown.
+- Customers with an earlier success responded well in every month with at least 100 of them, from 49.1% in May to 77.7% in September (Table 7.5).
+- Among customers whose earlier contact ended in failure, the yes rate was between 7.3% and 11.3% in April, May and November, and between 29.2% and 40.8% from June to October. The groups in June to October are small, between 120 and 254 customers, so this pattern should be treated with caution (Tables 7.4 and 7.5).
+
+*Days since the previous contact*
+
+- Only 1,515 customers (3.7% of the call list) have a recorded gap since the previous contact, and 90.6% of them (1,373) are customers whose earlier contact ended in success. The result is therefore mainly about earlier successes (Tables 7.1 and 7.6).
+- The yes rate is highest when the earlier contact was 3 to 6 days before: 64.8% for 3 to 4 days and 69.4% for 5 to 6 days. It is lower at 0 to 2 days (53.9%) and at 8 to 14 days (56.9%). Customers contacted exactly 7 days after, and those contacted 15 or more days after, are too few to show a rate (Table 7.6).
+- The same pattern holds among earlier successes alone: 65.2% at 3 to 4 days, 70.4% at 5 to 6 days, 58.1% at 8 to 14 days and 53.9% at 0 to 2 days (Table 7.7).
+- The gaps between 5 to 6 days and both 0 to 2 and 8 to 14 days are larger than chance alone would usually produce. The gap between 3 to 4 and 5 to 6 days is not.
+- Customers whose earlier contact ended in failure and who have a recorded gap subscribed at 51.4% (73 of 142), compared with 12.9% for the 4,110 failures with no recorded gap (Table 7.8). The group with a recorded gap is small.
+
+**What this means**
+
+A customer's history with the bank is the strongest single signal found so far. Customers with an earlier success subscribed at about six times the overall rate, and the rate was higher still for those contacted more than once before. Customers contacted before are 13.7% of the call list but provided nearly a third of subscriptions, so they are natural candidates for early calls. They are too few to carry a campaign on their own. Among earlier successes, follow-up 3 to 6 days after the previous contact produced the best response in this data. The strong months are partly explained by the bank having called many more earlier customers in them, but customers with no history also responded well in March, September and October, so something else differed in those months that the data does not identify. Whether prioritising earlier customers would raise subscriptions cannot be determined from this data alone.
+
+**Limitations**
+
+- The data shows associations, not reasons. The bank chose whom to contact again, so a high yes rate may partly reflect that selection and not the history itself.
+- The data has no customer ID, so it cannot show whether customers with an earlier success already hold a deposit from that campaign, or whether the same person appears more than once.
+- The previous outcome and the number of earlier contacts describe the period before this campaign only. The data does not say whether the earlier contacts were in one campaign or several.
+- Days since the previous contact is recorded for only 1,515 customers. For the other 4,110 customers contacted before it is missing, and the data does not explain why. The timing result is mainly about earlier successes, and the day bands were chosen for this analysis.
+- Timing may overlap with the month of contact. This was not tested.
+- The rate for earlier failures with a recorded gap (Table 7.8) rests on 142 customers and is calculated by subtraction from other tables, so it is imprecise.
+- The data does not explain why March, September, October and December responded so well. The economic climate is examined in Question 9.
+- No yes rate is shown where fewer than 100 customers fall in a group.
+- Each record is a contact, not necessarily a different person.
