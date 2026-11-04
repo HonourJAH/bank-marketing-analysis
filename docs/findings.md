@@ -692,3 +692,69 @@ A customer's history with the bank is the strongest single signal found so far. 
 - The data does not explain why March, September, October and December responded so well. The economic climate is examined in Question 9.
 - No yes rate is shown where fewer than 100 customers fall in a group.
 - Each record is a contact, not necessarily a different person.
+
+---
+
+## Question 8. How do call lengths differ between customers who subscribed and those who did not?
+
+**Findings**
+
+The data records the length of each customer's last contact. The dataset documentation states that the length is not known before a call is made and that the outcome is known once the call ends. This question therefore describes what happened. It is not a way of choosing whom to call.
+
+*Table 8.1. Length of the last call, by outcome (seconds; minutes in brackets for the medians)*
+
+| Outcome | Customers | Median last call | Average last call | Middle half of calls ranged from | to | Talk time (hours) | Share of talk time |
+|---|---|---|---|---|---|---|---|
+| Subscribed (yes) | 4,639 | 449 (7 min 29 s) | 553.3 | 253.5 | 741.5 | 712.9 | 24.1% |
+| Did not subscribe (no) | 36,537 | 164 (2 min 44 s) | 220.9 | 95.0 | 279.0 | 2,241.6 | 75.9% |
+| **Total** | **41,176** | **180 (3 min)** | not calculated | not calculated | not calculated | **2,954.5** | **100%** |
+
+*Table 8.2. Yes rate by length of the last call*
+
+| Length of last call | Customers | Subscribed | Yes rate | Share of customers | Share of all subscriptions | Talk time (hours) | Share of talk time |
+|---|---|---|---|---|---|---|---|
+| Under 1 minute | 4,179 | 1 | less than 0.1% | 10.1% | less than 0.1% | 40.3 | 1.4% |
+| 1 to 2 minutes | 8,612 | 163 | 1.9% | 20.9% | 3.5% | 215.4 | 7.3% |
+| 2 to 3 minutes | 7,788 | 394 | 5.1% | 18.9% | 8.5% | 320.7 | 10.9% |
+| 3 to 5 minutes | 9,349 | 950 | 10.2% | 22.7% | 20.5% | 602.6 | 20.4% |
+| 5 to 10 minutes | 7,770 | 1,441 | 18.5% | 18.9% | 31.1% | 889.7 | 30.1% |
+| 10 minutes and over | 3,478 | 1,690 | 48.6% | 8.4% | 36.4% | 885.8 | 30.0% |
+| **Total** | **41,176** | **4,639** | **11.3%** | **100%** | **100%** | **2,954.5** | **100%** |
+| Under 3 minutes, combined | 20,579 | 558 | 2.7% | 50.0% | 12.0% | 576.4 | 19.5% |
+| 5 minutes and over, combined | 11,248 | 3,131 | 27.8% | 27.3% | 67.5% | 1,775.5 | 60.1% |
+
+*Table 8.3. Range of call lengths*
+
+| Measure | Value |
+|---|---|
+| Shortest call | 0 seconds |
+| Median call | 180 seconds |
+| Longest call | 4,918 seconds (about 82 minutes) |
+| Calls of 0 seconds | 4 |
+| Of which subscribed | 0 |
+
+*Call length by outcome*
+
+- Customers who subscribed had a median last call of 449 seconds (7 minutes 29 seconds), against 164 seconds (2 minutes 44 seconds) for those who did not, about 2.7 times as long. The average is 553.3 seconds for customers who subscribed and 220.9 seconds for those who did not (Table 8.1).
+- The middle half of calls to customers who subscribed lasted between 253.5 and 741.5 seconds, and for those who did not between 95.0 and 279.0 seconds (Table 8.1).
+- Customers who subscribed are 11.3% of customers but account for 24.1% of the talk time, 712.9 of 2,954.5 hours (Table 8.1).
+- The shortest call lasted 0 seconds and the longest 4,918 seconds. Four calls lasted 0 seconds, and none led to a subscription (Table 8.3).
+
+*Yes rate by call length*
+
+- The yes rate rises steeply with the length of the call: less than 0.1% for calls under a minute, 1.9% for 1 to 2 minutes, 5.1% for 2 to 3 minutes, 10.2% for 3 to 5 minutes, 18.5% for 5 to 10 minutes and 48.6% for calls of 10 minutes and over (Table 8.2).
+- Only 1 of the 4,179 customers whose last call lasted under a minute subscribed (Table 8.2).
+- Half of all customers (50.0%) had a last call shorter than 3 minutes. They produced 12.0% of subscriptions, a yes rate of 2.7% (Table 8.2).
+- Customers whose last call lasted 5 minutes or more are 27.3% of customers and account for 67.5% of subscriptions, with a yes rate of 27.8%. Calls of 10 minutes and over alone are 8.4% of customers and 36.4% of subscriptions (Table 8.2).
+
+**What this means**
+
+This question describes the calls and does not support a recommendation for the bank. Calls that ended within a minute almost never led to a subscription, and calls of 10 minutes or more produced more than a third of all subscriptions, but call length follows how interested the customer was. An interested customer stays on the line, and a customer who declines ends the call. The data cannot show that keeping customers talking longer would raise subscriptions.
+
+**Limitations**
+
+- The length of a call is not known before the call is made, and the outcome is known once it ends, so length is a result of the call and not something the bank can choose in advance. The dataset documentation says it should be discarded when building a model to predict outcomes.
+- Only the length of the last contact is recorded. For customers who received several calls, the talk time is understated, so the 2,954.5 hours is not the total effort of the campaign.
+- The data shows what happened and does not show what would happen if calls were handled differently.
+- The median is shown for all customers together (180 seconds, Table 8.3). The average and the middle half were not calculated for all customers together.
+- Each record is a contact, not necessarily a different person.
