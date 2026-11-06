@@ -831,3 +831,142 @@ The yes rate was far higher in the later periods, when the number employed and t
 - The indicators are national figures, not customer information. The dataset documentation describes them as quarterly, monthly or daily.
 - Period 4 has only 10 customers, so no rate is shown.
 - Each record is a contact, not necessarily a different person.
+
+---
+
+## Question 10. Which combinations of customer and campaign features have the highest and lowest yes rate?
+
+**Findings**
+
+The earlier questions looked at one feature at a time. A call list would combine them, so this question ranks combinations, called segments. A segment is a combination of three features that the bank knows before dialling: the outcome of the previous campaign (never contacted, earlier failure or earlier success), the contact type (cellular or telephone) and the age group (under 25, 25 to 34, 35 to 54, or 55 and over). That gives 24 segments. The length of the call (Question 8) and the number of calls received (Question 6) are not used, because they are only known once a contact is under way.
+
+Because the year is the largest difference in the data, each segment is compared with the yes rate of its own year, shown as "times the year's rate". A value of 2.00 means twice the yes rate of all customers in that year, and 1.00 means the same. A segment is ranked only where it has at least 100 customers in a year, and a segment that is above (or below) its year's rate in every year where it can be measured is more trustworthy than one that is not.
+
+*Table 10.1. All 24 segments, all years combined (in the order of their 2009 result)*
+
+| Previous outcome | Contact type | Age group | Customers | Subscribed | Yes rate | Share of customers | Share of all subscriptions | Measurable in |
+|---|---|---|---|---|---|---|---|---|
+| Earlier success | Cellular | 55 and over | 276 | 204 | 73.9% | 0.7% | 4.4% | 2 or more years |
+| Earlier success | Cellular | 25 to 34 | 417 | 263 | 63.1% | 1.0% | 5.7% | 2 or more years |
+| Earlier success | Cellular | 35 to 54 | 490 | 301 | 61.4% | 1.2% | 6.5% | 2 or more years |
+| Never contacted | Cellular | 55 and over | 2,137 | 375 | 17.5% | 5.2% | 8.1% | 2 or more years |
+| Never contacted | Cellular | Under 25 | 583 | 129 | 22.1% | 1.4% | 2.8% | 2 or more years |
+| Earlier failure | Cellular | Under 25 | 156 | 46 | 29.5% | 0.4% | 1.0% | 1 year only |
+| Earlier failure | Cellular | 55 and over | 457 | 119 | 26.0% | 1.1% | 2.6% | 2 or more years |
+| Never contacted | Cellular | 25 to 34 | 7,352 | 959 | 13.0% | 17.9% | 20.7% | 2 or more years |
+| Never contacted | Telephone | 55 and over | 1,313 | 81 | 6.2% | 3.2% | 1.7% | 2 or more years |
+| Never contacted | Telephone | 25 to 34 | 4,400 | 229 | 5.2% | 10.7% | 4.9% | 2 or more years |
+| Never contacted | Cellular | 35 to 54 | 10,841 | 990 | 9.1% | 26.3% | 21.3% | 2 or more years |
+| Earlier failure | Cellular | 25 to 34 | 1,357 | 181 | 13.3% | 3.3% | 3.9% | 2 or more years |
+| Never contacted | Telephone | 35 to 54 | 8,706 | 364 | 4.2% | 21.1% | 7.8% | 2 or more years |
+| Earlier failure | Cellular | 35 to 54 | 1,982 | 225 | 11.4% | 4.8% | 4.9% | 2 or more years |
+| Earlier failure | Telephone | 25 to 34 | 122 | 12 | 9.8% | 0.3% | 0.3% | 1 year only |
+| Earlier failure | Telephone | 35 to 54 | 138 | 15 | 10.9% | 0.3% | 0.3% | 1 year only |
+| Earlier failure | Telephone | 55 and over | 28 | 6 | 21.4% | 0.1% | 0.1% | 1 year only |
+| Earlier failure | Telephone | Under 25 | 12 | 1 | 8.3% | less than 0.1% | less than 0.1% | 1 year only |
+| Earlier success | Cellular | Under 25 | 87 | 60 | 69.0% | 0.2% | 1.3% | 1 year only |
+| Earlier success | Telephone | 25 to 34 | 36 | 22 | 61.1% | 0.1% | 0.5% | 1 year only |
+| Earlier success | Telephone | 35 to 54 | 40 | 25 | 62.5% | 0.1% | 0.5% | 1 year only |
+| Earlier success | Telephone | 55 and over | 17 | 12 | 70.6% | less than 0.1% | 0.3% | 1 year only |
+| Earlier success | Telephone | Under 25 | 10 | 7 | 70.0% | less than 0.1% | 0.2% | 1 year only |
+| Never contacted | Telephone | Under 25 | 219 | 13 | 5.9% | 0.5% | 0.3% | 1 year only |
+| **Total** | | | **41,176** | **4,639** | **11.3%** | **100%** | **100%** | |
+
+*Table 10.2. The 13 segments that can be measured in two or more years: customers, yes rate and times the year's rate (n/a where there are fewer than 100 customers)*
+
+| Previous outcome | Contact type | Age group | 2008 customers | 2008 yes rate (times the year's rate) | 2009 customers | 2009 yes rate (times the year's rate) | 2010 customers | 2010 yes rate (times the year's rate) | Pattern |
+|---|---|---|---|---|---|---|---|---|---|
+| Earlier success | Cellular | 55 and over | 3 | n/a | 134 | 66.4% (3.41) | 139 | 82.0% (1.57) | Above in both years measured |
+| Earlier success | Cellular | 25 to 34 | 9 | n/a | 208 | 55.8% (2.86) | 200 | 72.5% (1.39) | Above in both years measured |
+| Earlier success | Cellular | 35 to 54 | 20 | n/a | 273 | 52.0% (2.67) | 197 | 80.7% (1.55) | Above in both years measured |
+| Never contacted | Cellular | 55 and over | 1,236 | 5.7% (1.19) | 752 | 31.0% (1.59) | 149 | 47.7% (0.91) | Mixed |
+| Never contacted | Cellular | Under 25 | 225 | 7.6% (1.56) | 328 | 30.2% (1.55) | 30 | n/a | Above in both years measured |
+| Earlier failure | Cellular | 55 and over | 52 | n/a | 290 | 22.8% (1.17) | 115 | 43.5% (0.83) | Mixed |
+| Never contacted | Cellular | 25 to 34 | 4,440 | 6.3% (1.31) | 2,676 | 20.3% (1.04) | 236 | 56.8% (1.09) | Slightly above in all three years |
+| Never contacted | Telephone | 55 and over | 1,175 | 4.1% (0.84) | 102 | 18.6% (0.96) | 36 | n/a | Below in both years measured |
+| Never contacted | Telephone | 25 to 34 | 3,988 | 4.4% (0.90) | 295 | 14.9% (0.77) | 117 | 9.4% (0.18) | Below in all three years |
+| Never contacted | Cellular | 35 to 54 | 7,385 | 5.5% (1.14) | 3,272 | 14.4% (0.74) | 184 | 61.4% (1.18) | Mixed |
+| Earlier failure | Cellular | 25 to 34 | 181 | 2.8% (0.57) | 1,006 | 12.1% (0.62) | 170 | 31.8% (0.61) | Below in all three years |
+| Never contacted | Telephone | 35 to 54 | 8,327 | 3.7% (0.76) | 303 | 11.9% (0.61) | 76 | n/a | Below in both years measured |
+| Earlier failure | Cellular | 35 to 54 | 419 | 3.3% (0.69) | 1,410 | 11.3% (0.58) | 153 | 33.3% (0.64) | Below in all three years |
+| **Yes rate of all customers in the year** | | | **27,682** | **4.8%** | **11,436** | **19.5%** | **2,058** | **52.1%** | |
+
+*Table 10.3. The strongest and weakest groups of segments*
+
+The yes rate here is for all years combined, so it blends years. The comparison with each year's own rate is in Table 10.2.
+
+| Group of segments | Segments | Customers | Subscribed | Yes rate, all years | Share of customers | Share of all subscriptions |
+|---|---|---|---|---|---|---|
+| Earlier success, cellular, ages 25 to 34, 35 to 54 and 55 and over | 3 | 1,183 | 768 | 64.9% | 2.9% | 16.6% |
+| Earlier failure, cellular, ages 25 to 34 and 35 to 54 | 2 | 3,339 | 406 | 12.2% | 8.1% | 8.8% |
+| Never contacted, telephone, ages 25 to 34 and 35 to 54 | 2 | 13,106 | 593 | 4.5% | 31.8% | 12.8% |
+| The two weakest groups combined | 4 | 16,445 | 999 | 6.1% | 39.9% | 21.5% |
+
+*Table 10.4. How many segments can be measured*
+
+| Segments measurable in | Segments | Customers | Share of customers | Subscribed | Share of all subscriptions | Yes rate, all years |
+|---|---|---|---|---|---|---|
+| Two or more years | 13 | 40,311 | 97.9% | 4,420 | 95.3% | 11.0% |
+| One year only | 11 | 865 | 2.1% | 219 | 4.7% | 25.3% |
+| **Total** | **24** | **41,176** | **100%** | **4,639** | **100%** | **11.3%** |
+
+*Table 10.5. Customers with an earlier success, by contact type, all years*
+
+| Contact type | Customers | Share of customers with an earlier success | Subscribed | Yes rate |
+|---|---|---|---|---|
+| Cellular | 1,270 | 92.5% | 828 | 65.2% |
+| Telephone | 103 | 7.5% | 66 | 64.1% |
+| **Total** | **1,373** | **100%** | **894** | **65.1%** |
+
+*Table 10.6. Customers contacted by cellular: earlier failure compared with never contacted, by age group and year (only where both groups have at least 100 customers)*
+
+| Age group | Year | Earlier failure customers | Earlier failure yes rate | Never contacted customers | Never contacted yes rate |
+|---|---|---|---|---|---|
+| Under 25 | 2009 | 105 | 22.9% | 328 | 30.2% |
+| 25 to 34 | 2008 | 181 | 2.8% | 4,440 | 6.3% |
+| 25 to 34 | 2009 | 1,006 | 12.1% | 2,676 | 20.3% |
+| 25 to 34 | 2010 | 170 | 31.8% | 236 | 56.8% |
+| 35 to 54 | 2008 | 419 | 3.3% | 7,385 | 5.5% |
+| 35 to 54 | 2009 | 1,410 | 11.3% | 3,272 | 14.4% |
+| 35 to 54 | 2010 | 153 | 33.3% | 184 | 61.4% |
+| 55 and over | 2009 | 290 | 22.8% | 752 | 31.0% |
+| 55 and over | 2010 | 115 | 43.5% | 149 | 47.7% |
+
+*The strongest segments*
+
+- Customers with an earlier success who were contacted by cellular, aged 25 to 34, 35 to 54 or 55 and over, are the strongest segments. Their yes rates across all years are 63.1%, 61.4% and 73.9% (Table 10.1).
+- They are above their year's rate in both years in which they can be measured. In 2009 they subscribed at 2.86, 2.67 and 3.41 times the year's rate, and in 2010 at 1.39, 1.55 and 1.57 times (Table 10.2). Fewer than 100 of them were contacted in 2008, so that year cannot be assessed.
+- Together they are 1,183 customers, 2.9% of the call list, and account for 16.6% of all subscriptions (Table 10.3).
+- Customers with an earlier success who were reached by cellular under 25, or by telephone at any age, had similar yes rates (61.1% to 70.6%), but these segments have between 10 and 87 customers each and can be measured in only one year, so they are not ranked (Table 10.1).
+- Customers with an earlier success responded about as well by telephone (64.1%) as by cellular (65.2%), but only 103 of the 1,373 were contacted by telephone (Table 10.5).
+
+*The weakest segments*
+
+- Customers whose earlier contact ended in failure, contacted by cellular, aged 25 to 34 and 35 to 54, are below their year's rate in all three years, at between 0.57 and 0.69 times (Table 10.2). They are 3,339 customers, 8.1% of the call list (Table 10.3).
+- At every age and in every year where both groups can be measured, a customer with an earlier failure subscribed at a lower rate than a customer of the same age, contacted by cellular, who had never been contacted before. This holds in all nine comparisons (Table 10.6). The difference is largest in 2010, for example 33.3% against 61.4% at ages 35 to 54.
+- Customers never contacted before, reached by telephone, aged 25 to 34 and 35 to 54, are also below their year's rate in every year in which they can be measured: 0.90, 0.77 and 0.18 times at ages 25 to 34, and 0.76 and 0.61 times at ages 35 to 54 (Table 10.2). They are 13,106 customers, 31.8% of the call list (Table 10.3).
+- The two weakest groups together are 39.9% of the call list and 21.5% of subscriptions (Table 10.3).
+
+*The segments without a stable pattern*
+
+- The largest segment, customers never contacted before, reached by cellular, aged 35 to 54, is 10,841 customers (26.3% of the call list, 21.3% of subscriptions). It is above its year's rate in 2008 and 2010 (1.14 and 1.18 times) and below it in 2009 (0.74 times), so it has no stable direction (Tables 10.1 and 10.2).
+- Customers never contacted before, reached by cellular, aged 25 to 34, are only slightly above their year's rate in all three years (1.31, 1.04 and 1.09 times), a weak signal (Table 10.2).
+- Customers never contacted before, reached by cellular, under 25, are above their year's rate in both years in which they can be measured (1.56 and 1.55 times). Those aged 55 and over are above it in 2008 and 2009 (1.19 and 1.59 times) and below it in 2010 (0.91 times, 149 customers) (Table 10.2).
+
+*How much of the call list the ranking covers*
+
+- Thirteen of the 24 segments can be measured in two or more years. They hold 97.9% of the customers and 95.3% of the subscriptions. The other eleven segments are small (865 customers in total) and can be measured in only one year, so they are not ranked (Table 10.4).
+
+**What this means**
+
+A call list built only from what the bank knows before dialling would place customers with an earlier success first, by cellular where possible. They are a small group, 3.3% of the call list, so they can start a list but cannot fill one. Customers with an earlier failure, and customers never contacted before who are reached by telephone at ages 25 to 54, would come last. They are 39.9% of the call list and responded below their year's rate in every year in which they could be measured. Most other customers sit in segments with no stable direction, so the ranking does not replace the judgement of the campaign team. Whether calling in this order would raise the number of subscriptions cannot be determined from this data alone.
+
+**Limitations**
+
+- The segments were chosen after looking at the data, so one that looks strong has partly been selected for looking strong. Consistency across years is the safeguard used here, but the ranking has not been tested on a separate campaign.
+- The data shows associations, not reasons. The bank chose whom to contact and by what channel, so a segment's yes rate partly reflects that selection.
+- The age groups and the labels for the previous outcome were chosen for this analysis. Job and education were not included, because they mattered mainly in 2009 (Question 3) and splitting these segments further would leave very few customers in each group.
+- In 2010 the yes rate of all customers is 52.1%, so a segment cannot exceed about 1.9 times that year's rate, whereas in 2009 it can reach about five times. Multiples from different years are therefore not directly comparable, and the direction (above or below) matters more than the size.
+- Eleven segments, with 865 customers in total, can be measured in only one year and are not ranked. Where a segment has fewer than 100 customers in a year, no rate is shown.
+- The year is inferred, as described above.
+- Each record is a contact, not necessarily a different person.
