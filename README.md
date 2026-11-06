@@ -69,30 +69,30 @@ The full results, with every table, are in [`docs/findings.md`](docs/findings.md
 
 ## Repository structure
 
-bank-marketing-analysis/
-├── data/
-│ └── README.md source, citation, how to download
-├── docs/
-│ ├── decision-log.md every data decision, with its reasoning and limits
-│ └── findings.md the ten business questions, in plain language
-├── notebooks/
-│ ├── analysis/
-│   ├── q01_overall_result_and_calling_effort.ipynb
-│   ├── q02_age_and_life_stage.ipynb
-│   ├── q03_job_and_education.ipynb
-│  	├── q04_financial_profile.ipynb
-│   ├── q05_contact_channel_and_calendar.ipynb
-│   ├── q06_repeated_contacts.ipynb
-│   ├── q07_previous_campaign.ipynb
-│   ├── q08_call_duration.ipynb
-│   ├── q09_economic_context.ipynb
-│   └── q10_best_and_worst_segments.ipynb
-│ ├── 01_load_raw.ipynb load the raw data unchanged
-│ ├── 02_profile_raw.ipynb profile the raw data
-│ ├── 03_build_clean.ipynb apply the decisions, save the clean data
-│ ├── 04_profile_clean.ipynb validate the clean data against the raw data
-├── .gitignore
-└── README.md
+    bank-marketing-analysis/
+    ├── data/
+    │   └── README.md                         source, citation, how to download
+    ├── docs/
+    │   ├── decision-log.md                   every data decision, with its reasoning and limits
+    │   └── findings.md                       the ten business questions, in plain language
+    ├── notebooks/
+    │   ├── 01_load_raw.ipynb                 load the raw data unchanged
+    │   ├── 02_profile_raw.ipynb              profile the raw data
+    │   ├── 03_build_clean.ipynb              apply the decisions, save the clean data
+    │   ├── 04_profile_clean.ipynb            validate the clean data against the raw data
+    │   └── analysis/
+    │       ├── q01_overall_result_and_calling_effort.ipynb
+    │       ├── q02_age_and_life_stage.ipynb
+    │       ├── q03_job_and_education.ipynb
+    │       ├── q04_financial_profile.ipynb
+    │       ├── q05_contact_channel_and_calendar.ipynb
+    │       ├── q06_repeated_contacts.ipynb
+    │       ├── q07_previous_campaign.ipynb
+    │       ├── q08_call_duration.ipynb
+    │       ├── q09_economic_context.ipynb
+    │       └── q10_best_and_worst_segments.ipynb
+    ├── .gitignore
+    └── README.md
 
 ## How to reproduce
 
