@@ -279,7 +279,7 @@ Job and education made almost no difference in 2008 and only a modest one in 201
 **Limitations**
 
 - The data shows associations, not reasons. It cannot explain why any group responds differently.
-- Comparing within a year reduces, but does not remove, other differences between groups, such as age, the month of contact and whom the bank chose to call. Job, education, age and year were not tested together. An earlier analysis that allowed for age across all years, including whether retirement matters beyond age, was not repeated within each year and is not reported.
+- Comparing within a year reduces, but does not remove, other differences between groups, such as age, the month of contact and whom the bank chose to call. Job, education, age and year were not tested together. An earlier analysis that took age into account across all years, including whether retirement matters beyond age, was not repeated within each year and is not reported.
 - Many groups were compared, so small differences should not be relied on. Several groups in 2010 are too small to show a rate (n/a in Tables 3.3 and 3.4).
 - Jobs and education levels are as recorded by the bank, and the data cannot show how accurate or current they are. Customers with an unknown job or education are kept as their own group.
 - The year is inferred, as described above.
@@ -326,7 +326,7 @@ The expected rate applies, to the unknown group's customers in each year, the ye
 | Customers with an unknown status | 8,596 |
 | Actual yes rate | 5.2% |
 | Yes rate of customers with a recorded status | 12.9% |
-| Expected yes rate, allowing for the years in which they were contacted | about 7.8% |
+| Expected yes rate, taking the years in which they were contacted into account | about 7.8% |
 
 *Housing and personal loans*
 
@@ -339,7 +339,7 @@ The expected rate applies, to the unknown group's customers in each year, the ye
 - Customers whose credit default status is unknown subscribed at 5.2%, less than half the overall 11.3%. Customers with a recorded "no" subscribed at 12.9%. Unknown customers are 20.9% of the call list but 9.5% of subscriptions (Table 4.1).
 - Most of this difference reflects the year in which these customers were contacted. 83.5% of the unknown customers were contacted in 2008, the year with the lowest yes rate, against 62.9% of customers with a recorded "no" (Table 4.2).
 - Within 2008 the two groups responded almost alike: 4.3% for unknown customers and 5.0% for customers with a recorded "no". In 2009 the unknown customers subscribed at 8.1% against 21.0%. Only 43 unknown customers were contacted in 2010, too few to show a rate (Table 4.2).
-- Allowing for the years in which they were contacted, the unknown customers would be expected to subscribe at about 7.8%. Their actual rate of 5.2% is lower, so a gap remains, but it is much smaller than the comparison of 5.2% with 12.9% suggests (Table 4.3).
+- Taking the years in which they were contacted into account, the unknown customers would be expected to subscribe at about 7.8%. Their actual rate of 5.2% is lower, so a gap remains, but it is much smaller than the comparison of 5.2% with 12.9% suggests (Table 4.3).
 
 **What this means**
 
@@ -348,7 +348,7 @@ Whether a customer has a housing or personal loan tells the bank very little abo
 **Limitations**
 
 - The data shows associations, not reasons. "Unknown" means only that the bank has no record, and the data does not say why.
-- Contact type, month and age were not allowed for here. Housing loan and personal loan were not tested within each year or together, because each is within one point of the overall yes rate across all years.
+- Contact type, month and age were not taken into account here. Housing loan and personal loan were not tested within each year or together, because each is within one point of the overall yes rate across all years.
 - Whether a customer has a loan is as recorded at the time of the call. The data does not show when it was taken or how large it is.
 - The expected rate in Table 4.3 is approximate and assumes that customers with an unknown status would otherwise have responded like those with a recorded "no".
 - The year is inferred, as described above. Fewer than 100 unknown customers were contacted in 2010.
